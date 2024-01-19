@@ -35,7 +35,6 @@ export default function CardCustom({ data }: any) {
         return (
           <Card maxW="md" key={idx}>
             <Image
-              height={300}
               objectFit={"cover"}
               src={card.flags.svg}
               alt={card.flags.alt}
